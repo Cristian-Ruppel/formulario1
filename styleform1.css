@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    background: linear-gradient(
+        180deg,
+        rgb(42, 206, 227) 0%,
+        rgba(69, 24, 229, 1) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background: linear-gradient(135deg, #14bdf1 0%, #071858 100%);
+    padding: 50px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+form img {
+    width: 70px;
+    margin-bottom: 25px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container > i {
+    padding: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgb(39, 174, 225) 0%, rgb(15, 130, 213) 100%);
+    color: #ffffff;
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+input, select {
+    padding-left: 50px;
+    width: calc(100% - 20px);
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    height: 40px;
+    background: linear-gradient(135deg, rgba(20, 189, 241, 0.6) 0%, rgba(7, 24, 88, 0.6) 100%);
+    color: #fff;
+}
+
+input::placeholder, select option {
+    color: #ffffff;
+}
+
+select {
+    background: linear-gradient(135deg, rgba(20, 189, 241, 0.6) 0%, rgba(7, 24, 88, 0.6) 100%);
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 40px;
+}
+
+select option {
+    background: rgba(7, 24, 88, 0.8);
+    color: #ffffff;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(20, 189, 241, 0.5) 0%, rgba(7, 24, 88, 0.5) 100%);
+    color: #071858;
+    cursor: pointer;
+    font-size: 16px;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    color: #071858;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
